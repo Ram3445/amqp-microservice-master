@@ -1,6 +1,6 @@
 {
   "generator-jhipster": {
-    "jhipsterVersion": "6.2.0",
+    "jhipsterVersion": "6.8.0",
     "baseName": "jhipsterSampleMicroservice",
     "packageName": "io.github.jhipster.sample",
     "packageFolder": "io/github/jhipster/sample",
@@ -20,9 +20,7 @@
     "jwtSecretKey": "bXktc2VjcmV0LWtleS13aGljaC1zaG91bGQtYmUtY2hhbmdlZC1pbi1wcm9kdWN0aW9uLWFuZC1iZS1iYXNlNjQtZW5jb2RlZAo=",
     "enableTranslation": false,
     "applicationType": "microservice",
-    "testFrameworks": [
-      "gatling"
-    ],
+    "testFrameworks": ["gatling"],
     "jhiPrefix": "jhi",
     "skipClient": true,
     "skipUserManagement": true,
@@ -33,6 +31,8 @@
     "otherModules": [],
     "entitySuffix": "",
     "dtoSuffix": "DTO",
-    "blueprints": []
+    "blueprints": [],
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1586564794142
   }
 }
