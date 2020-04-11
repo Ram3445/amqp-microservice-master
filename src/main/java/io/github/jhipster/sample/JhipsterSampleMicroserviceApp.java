@@ -23,7 +23,7 @@ import java.util.Collection;
 
 @SpringBootApplication
 @EnableConfigurationProperties({LiquibaseProperties.class, ApplicationProperties.class})
-@EnableDiscoveryClient
+//@EnableDiscoveryClient
 public class JhipsterSampleMicroserviceApp {
 
     private static final Logger log = LoggerFactory.getLogger(JhipsterSampleMicroserviceApp.class);
